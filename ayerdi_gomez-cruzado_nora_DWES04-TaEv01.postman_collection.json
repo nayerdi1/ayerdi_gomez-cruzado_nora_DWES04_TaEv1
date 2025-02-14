@@ -1,0 +1,468 @@
+{
+	"info": {
+		"_postman_id": "64ff4d0c-7067-451b-ac7e-5ec0783a4849",
+		"name": "ayerdi_gomez-cruzado_nora_DWES04-TaEv01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40271528"
+	},
+	"item": [
+		{
+			"name": "Endpoint no disponible",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/loginasdfd",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"loginasdfd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Iniciar sesion con usuario correcto ROL ADMINISTRADOR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"password\": \"03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "iniciar sesion ROL USUARIO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"password\": \"fe2592b42a727e977f055947385b709cc82b16b9a87f88c6abf3900d65d0cdc3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Iniciar sesion con usuario incorrecto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"password\": \"12dfghgf34\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cerrar sesion ROL ADMINISTRADOR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"password\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/salir",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"salir"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cerrar sesion ROL USUARIO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"password\": \"4321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/salir",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"salir"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta de todos los libros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/libros",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"libros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta de un libro por su ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/libros/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"libros",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear prestamo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"libro_id\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/prestamos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"prestamos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "actualizar devolucion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"accion\": \"devolver libro\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/prestamos/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"prestamos",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "añadir nuevo libro- SOLO ADMINISTRADORES",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"titulo\": \"Un mundo feliz\",\r\n  \"autor\": \"Aldoux Huxley\",\r\n  \"genero\": \"Distopico\",\r\n  \"disponible\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "añadir nuevo libro SIN ROL DE ADMINISTRADOR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"titulo\": \"Un mundo feliz\",\r\n  \"autor\": \"Aldoux Huxley\",\r\n  \"genero\": \"Distopico\",\r\n  \"disponible\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modificar un libro - SOLO ADMINISTRADORES",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\",\r\n  \"id\": \"007\",\r\n  \"titulo\": \"Oooostegunak\",\r\n  \"autor\": \"Jon Arretxe\",\r\n  \"genero\": \"Ficcion\",\r\n  \"disponible\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/update/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"update",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modificar libro SIN ROL DE ADMINISTRADOR",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\",\r\n  \"id\": \"007\",\r\n  \"titulo\": \"Oostegunak\",\r\n  \"autor\": \"Jon Arretxe\",\r\n  \"genero\": \"Ficcion\",\r\n  \"disponible\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/update/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"update",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "borrar libro  ROL ADMINISTRADOR",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"nayerdi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/delete/23",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"delete",
+						"23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "borrar libro NO ROL ADMINISTRADOR",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usuario\": \"iarana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/ayerdi_gomez-cruzado_nora_DWES04/public/admin/delete/23",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ayerdi_gomez-cruzado_nora_DWES04",
+						"public",
+						"admin",
+						"delete",
+						"23"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
